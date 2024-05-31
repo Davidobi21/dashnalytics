@@ -34,7 +34,7 @@ export const productsData = [
         productname: "pro boot shoe",
         price: 10000,
         image: wreen_actionname,
-        inventories: 0,
+        inventories: 3,
         status: "available",
     },
     {
@@ -42,7 +42,7 @@ export const productsData = [
         productname: "boot",
         price: 234555,
         image: wreen_action,
-        inventories: 0,
+        inventories: 4,
         status: "available",
     },
     {
@@ -50,7 +50,7 @@ export const productsData = [
         productname: "shin guard",
         price: 100344,
         image: wreen_busylady,
-        inventories: 1,
+        inventories: 0,
         status: "Not available",
     },
     {
@@ -74,7 +74,7 @@ export const productsData = [
         productname: "pro boot",
         price: 230000,
         image: wreen_laptop,
-        inventories: 4,
+        inventories: 0,
         status: "Not available",
     },
 ]
