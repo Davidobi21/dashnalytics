@@ -1,7 +1,7 @@
-import {wreen_actionname, wreen_busylady, wreen_coffee} from "../assets/images"
+import {wreen_action, wreen_actionname, wreen_busylady, wreen_catvideo, wreen_coffee, wreen_laptop, wreen_outdoortype} from "../assets/images"
 
 
-export const ProductData = [
+export const productsData = [
     
     {
         id: "2476880",

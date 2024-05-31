@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import Footer from './components/Footer'
 import { Outlet, createBrowserRouter } from 'react-router-dom'
-import Product from './pages/Product'
+import Products from './pages/Products'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
 import { RouterProvider } from 'react-router'
@@ -36,7 +36,7 @@ export default function App() {
       }, 
       {
         path: "products",
-        element: <Product />
+        element: <Products />
       },
 
       ]
