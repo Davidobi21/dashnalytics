@@ -1,5 +1,4 @@
 import React from 'react'
-import { wreen_graybg } from '../assets/images'
 import { IoTrashBinSharp } from 'react-icons/io5'
 import { productsData } from '../data/productsData'
 
