@@ -37,7 +37,7 @@ export default function Products() {
                                 </td>
                                 <td>&#8358; {product.price.toLocaleString()}</td>
                                 <td>{product.inventories}</td>
-                                <td><div className="{`p-1 px-4 ${product.inventories > 0 ? 'bg-green-500' : 'bg-slate-400'} text-white text-sm w-max mx-auto rounded-sm`}">{product.status}</div></td>
+                                <td><div className={`p-1 px-4 ${product.inventories > 0 ? 'bg-green-500' : 'bg-slate-400'} text-white text-sm w-max mx-auto rounded-sm`}>{product.status}</div></td>
                                 <td><div className="p-1 px-4 cursor-pointer bg-[#f66] text-white text-sm w-max mx-auto rounded-sm"><IoTrashBinSharp /></div></td>
                             </tr>
                             ))
